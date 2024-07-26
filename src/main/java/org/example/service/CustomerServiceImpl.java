@@ -5,11 +5,11 @@ import lombok.RequiredArgsConstructor;
 import org.example.dto.Customer;
 import org.example.entity.CustomerEntity;
 import org.example.repository.CustomerRepository;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -35,5 +35,11 @@ public class CustomerServiceImpl implements CustomerService{
         }
         return allCustomersList;
 
+    }
+
+    @Override
+    public Customer findCustomerById(Long id) {
+        Optional<CustomerEntity> byId = repository.findById(id);
+        return mapper.convertValue(byId, Customer.class);
     }
 }

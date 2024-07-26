@@ -8,4 +8,6 @@ public interface CustomerService {
     void addNewCustomer(Customer customer);
 
     List getAllSavedCustomers();
+
+    Customer findCustomerById(Long id);
 }
