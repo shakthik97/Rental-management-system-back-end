@@ -45,3 +45,9 @@ Q.idea/sonarlint/securityhotspotstore/c/5/c540b239efea206f215a5e715b6202cd5e2569
 Q.idea/sonarlint/securityhotspotstore/a/b/abc030b437b5b6e5055217bb0637df93b3c9c7a7,9\0\9039d59d41a007f3946b60d9de61bed109461a0f
 Å
 Q.idea/sonarlint/securityhotspotstore/b/2/b2d0fac719895649afdc53b399f1fa65fafbdcbd,d\3\d3178b7ae45fc37eef1b423f57c29ce0131342b6
+p
+@src/main/java/org/example/exceptions/GlobalExceptionHandler.java,1\9\193d60728f4d1427cd04b8684058aae7f03b1a5b
+s
+Csrc/main/java/org/example/exceptions/CustomerNotFoundException.java,d\2\d2974490915743226525ccc9b35b6eec72b87dcf
+l
+<src/main/java/org/example/responseObjects/ErrorResponse.java,e\8\e8debeadafe5aad0d575f8dd83113faeb9429b98
