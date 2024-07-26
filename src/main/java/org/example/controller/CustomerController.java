@@ -5,6 +5,8 @@ import org.example.dto.Customer;
 import org.example.service.CustomerService;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @CrossOrigin
 @RequiredArgsConstructor
 @RestController
@@ -14,6 +16,11 @@ public class CustomerController {
     @PostMapping("/add")
     public void addCustomer(@RequestBody Customer customer) {
         service.addNewCustomer(customer);
+    }
+
+    @GetMapping("/get-all")
+    public List getAllCustomers(){
+       return service.getAllSavedCustomers();
     }
 
 

@@ -1,5 +1,3 @@
 
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8¶Ìï2J$d8411b75-e6ec-487b-beb4-08fd9bbfa92f
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8ñÛ»ï2J$67b409a5-4204-47b9-8697-de3d45665ceb
+›
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8Í‡íï2J$66f3b852-e8e3-45e5-b67c-6a30a4cc7cbd
