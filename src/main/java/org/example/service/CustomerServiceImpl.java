@@ -42,4 +42,9 @@ public class CustomerServiceImpl implements CustomerService{
         Optional<CustomerEntity> byId = repository.findById(id);
         return mapper.convertValue(byId, Customer.class);
     }
+
+    @Override
+    public void deleteCustomerById(Long id) {
+        repository.deleteById(id);
+    }
 }

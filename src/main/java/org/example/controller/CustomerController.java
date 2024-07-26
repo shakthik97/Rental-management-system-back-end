@@ -29,4 +29,10 @@ public class CustomerController {
     }
 
 
+    @DeleteMapping("/delete-customer/{id}")
+    public void deleteCustomerById(@PathVariable Long id){
+        service.deleteCustomerById(id);
+    }
+
+
 }
